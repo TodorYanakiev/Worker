@@ -68,9 +68,4 @@ public class Worker implements Payable,Abscensable{
     public void paySalary() {
         System.out.println(getName() + " get his monthly salary paid and received " + getSalary() + "$.");
     }
-
-    @Override
-    public void payBonus(double amount) {
-        System.out.println(getName() + " received " + amount + "$ as a monthly bonus.");
-    }
 }
