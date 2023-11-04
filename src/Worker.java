@@ -66,6 +66,6 @@ public class Worker implements Payable,Abscensable{
 
     @Override
     public void paySalary() {
-        System.out.println(getName() + " get his monthly salary paid and received " + getSalary() + "$.");
+        System.out.println("Worker " + getName() + " received its monthly salary: " + getSalary() + "$");
     }
 }
