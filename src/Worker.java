@@ -62,15 +62,10 @@ public class Worker implements Payable,Abscensable{
 
     @Override
     public void sick(int length, String disease) {
-        System.out.println(getName() + " will be absent for " + length + " days, because he/she got from " + disease + ".");    }
+        System.out.println(getName() + " will be absent for " + length + " days, because he/she are sick from " + disease + ".");    }
 
     @Override
     public void paySalary() {
-        System.out.println(getName() + " get his salary paid and received " + getSalary() + "$.");
-    }
-
-    @Override
-    public void payBonus(double amount) {
-        System.out.println(getName() + " received " + amount + "$ as a bonus.");
+        System.out.println(getName() + " get his monthly salary paid and received " + getSalary() + "$.");
     }
 }
