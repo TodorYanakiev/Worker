@@ -64,4 +64,10 @@ public class Worker implements Abscensable{
     public void sick(int length, String disease) {
         System.out.println(getFirstName() + " will be absent for " + length + " days, because he/she are sick from " + disease + ".");    }
 
+
+    @Override
+    public void paySalary() {
+        System.out.println(getName() + " get his monthly salary paid and received " + getSalary() + "$.");
+    }
+
 }
