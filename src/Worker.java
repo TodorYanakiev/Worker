@@ -1,4 +1,4 @@
-public class Worker implements Abscensable{
+public class Worker implements Payable,Abscensable{
     protected String firstName;
     protected String position;
     protected double salary;
@@ -67,7 +67,7 @@ public class Worker implements Abscensable{
 
     @Override
     public void paySalary() {
-        System.out.println("Worker " + getName() + " received its monthly salary: " + getSalary() + "$");
+        System.out.println("Worker " + getFirstName() + " received its monthly salary: " + getSalary() + "$");
     }
 
 }
